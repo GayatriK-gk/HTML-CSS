@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="username" placeholder="Enter your name" required>
+        <br>
+        <br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your Email" required>
+        <br>
+        <br>
+
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <label>Gender:</label>
+        <br>
+        <input type="radio" name="gender" value="male" required>
+        <label>Male</label>
+        <br>
+        <input type="radio" name="gender" value="female" required>
+        <label>Female</label>
+        <br><br>
+
+        <label>Hobbies:</label>
+        <br>
+        <input type="checkbox" name="hobby" value="coding">Coding<br>
+        <input type="checkbox" name="hobby" value="dance">Dancing<br>
+        <input type="checkbox" name="hobby" value="swimmimh">Swimmimg<br>
+        <input type="checkbox" name="hobby" value="reading">Reading<br>
+        <br>
+
+        <label>City:</label>
+        <select name="city" required>
+            <option value="">---select---</option>
+            <option value="Pune">Pune</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Satara">Satara</option>
+        </select>
+        <br><br>
+
+        <label>Feedback:</label>
+        <br>
+        <textarea name="feedback" placeholder="write here..." required></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+
+    </form>
+</body>
+</html>

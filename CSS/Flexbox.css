@@ -1,0 +1,12 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    background-color: lightblue;
+    padding:20px;
+    margin:7px;
+}

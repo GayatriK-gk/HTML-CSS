@@ -1,0 +1,21 @@
+p{
+    color:rgb(50, 50, 123);
+}
+.highlight{
+    color:red;
+    font-weight:bold;
+}
+#mainTitle{
+    color:green;
+    text-align:center;
+}
+*{
+    margin:10px;
+    padding:0px;
+}
+h1,p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+div p{
+    color:pink;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Form</title>
+</head>
+<body>
+    <h1>Online Course Registration Form</h1>
+    <form>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your Full name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <br><br>
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course" required>
+            <option value="">----select----</option>
+            <option value="Java"> Java</option>
+            <option value="Python">Python</option>
+            <option value="C++">C++</option>
+            <option value="C">C</option>
+        </select>
+        <br><br>
+
+        <label>Mode of learning:</label><br>
+        <input type="radio" id="online" name="mode" value="online" required>
+        <label for="online">Online</label>
+
+        <input type="radio" id="offline" name="mode" value="offline" required>
+        <label for="offline">Offline</label>
+        <br><br>
+
+        <label>Skill You already Know:</label><br>
+        <input type="checkbox" name="skills" value="html">
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" name="skills" value="javascript">
+        <label for="javascript">JavaScript</label>
+        <br>
+        <input type="checkbox" name="skills" value="css">
+        <label for="css">CSS</label>
+        <br><br>
+
+        <label for="message">Why do you want to join?</label><br>
+        <textarea id="message" name="message" rows="4" cols="300" placeholder="write your reason..." required></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

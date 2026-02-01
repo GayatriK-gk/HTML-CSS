@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+
+}
+
+#blogTitle{
+    text-align:center;
+    color:darkred;
+
+}
+
+.post{
+    background-color: white;
+    border:2px solid #ccc;
+    padding:15px;
+    margin:20px;
+    border-radius:15px;
+
+}
+
+.post h2{
+    color:darkblue;
+
+}
+
+.readbtn{
+    background-color: blue;
+    color:white;
+    border:none;
+    padding:8px 12px;
+    border-radius:5px;
+}
+
+#footer{
+    text-align:center;
+    margin-top:30px;
+    font-size:14px;
+    
+}
