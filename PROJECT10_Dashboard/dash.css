@@ -43,3 +43,15 @@
     text-align: center;
     border-radius: 8px;
 }
+@media(max-width:768px){
+    .dashboard{
+        flex-direction:column
+    }
+    .sidebar{
+        width:100%;
+        text-align:center;
+    }
+    .cards{
+        flex-direction:column;
+    }
+}
